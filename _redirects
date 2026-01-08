@@ -1,0 +1,43 @@
+# ===============================
+# SPECIFIC WORDPRESS → PUBLII REDIRECTS
+# (most specific rules FIRST)
+# ===============================
+
+/more-picture-books-that-help-kids-deal-with-emotions/feeling-all-my-feelings-book/         /learn-more                               301
+/more-picture-books-that-help-kids-deal-with-emotions/get-free-social-emotional-activity-sheets/ /freebies                          301
+/more-picture-books-that-help-kids-deal-with-emotions/about-us/                             /about-us                                 301
+/contact-us/                                                                                 /about-us                                 301
+/more-picture-books-that-help-kids-deal-with-emotions/blog/                                 /blog                                     301
+/order-feeling-all-my-feelings-book/                                                         /learn-more#get-the-books                 301
+
+/struggle-is-inevitable/                                                                     /blog/struggle-is-inevitable/             301
+/letting-go/                                                                                 /blog/letting-go/                         301
+/rules-of-anger/                                                                             /blog/rules-of-anger/                     301
+/i-hate-you-i-wish-you-werent-my-mom-2/                                                      /blog/i-hate-you-i-wish-you-werent-my-mom/ 301
+/nightmares-and-fairytales/                                                                  /blog/nightmares-and-fairytales/          301
+/kfc/                                                                                        /blog/when-love-looks-like-pushing/       301
+/pink-is-the-color-of-our-future/                                                            /blog/start-them-young/                   301
+/being-a-kid-can-really-stink/                                                               /blog/being-a-kid-can-really-stink/       301
+/it-may-be-hard-but-its-worth-it/                                                            /blog/it-may-be-hard-but-its-worth-it/    301
+/discuss-politics-with-kids/                                                                 /blog/start-them-young/                   301
+/moments-of-weakness/                                                                        /blog/moments-of-weakness/                301
+/539-2/                                                                                     /freebies                                 301
+/taming-tantrums/                                                                            /blog/taming-tantrums/                    301
+/find-your-why/                                                                              /blog/find-your-why/                      301
+/our-favorite-books-about-feelings/                                                          /blog/our-favorite-books-about-feelings/  301
+
+
+# ===============================
+# WORDPRESS SYSTEM / FALLBACKS
+# ===============================
+
+/wp-admin/*        /                301
+/wp-login.php     /                301
+/xmlrpc.php       /                301
+
+/category/*       /blog             301
+/tag/*            /blog             301
+/attachment/*     /blog             301
+/?p=*             /blog             301
+/feed             /                301
+/*/feed           /                301
